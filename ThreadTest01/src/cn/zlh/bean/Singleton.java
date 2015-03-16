@@ -13,7 +13,7 @@ public class Singleton {
 	
 	private static Singleton singleton = null;
 	
-	private Singleton(){}
+	private Singleton(){} 
 	
 	//多线程并发情况下需要加synchronized关键字或者直接使用懒汉模式，否则将产生多个
 	public static synchronized Singleton getInstance(){
